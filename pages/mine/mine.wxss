@@ -1,0 +1,29 @@
+/* pages/mine/mine.wxss */
+.userinfo {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-start;
+   align-items:center;
+}
+
+.userinfo-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+.block{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.block_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,5 @@
+<!--pages/bindPhone/bindPhone.wxml-->
+<view class='section'>
+  <input type='number' placeholder='请输入手机号'></input>
+  <input type='number' placeholder='请输入短信验证码'></input>
+</view>
