@@ -1,2 +1,2 @@
 # uzCommunity
-born to community
+born to Community
