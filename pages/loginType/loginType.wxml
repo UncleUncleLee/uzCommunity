@@ -1,7 +1,9 @@
 <!--pages/loginType/loginType.wxml-->
 <view class="content">
+  <!-- <button type="primary" class="btnLogin" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 一键登录 </button> -->
   <button type="primary" class="btnLogin" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 一键登录 </button>
+    disabled="{{disabled}}" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"> 一键登录 </button>
   <navigator url="/pages/bindPhone/bindPhone" hover-class="navigator-hover">手机号码登陆/注册</navigator>
 </view>
 
